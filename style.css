@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins",sans-serif;
+}
+/* admin login page start */
+.admin-bg{
+   height: 100vh;
+  background: url('./assets/location-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+  .admin-row{
+   margin-top: 50% !important;
+   overflow: hidden;
+  }
+  .admin-form{
+   margin-top: 30% !important;
+   box-shadow: 0px 4px 42.3px 4px #0000002E !important;
+   }
+/* admin login page end */
+  
+  .profile img{
+   height:35px;
+   width: 35px;
+   border-radius: 50%;
+  }
+  .overview-card{
+   background: linear-gradient(100.99deg, rgba(204, 0, 255, 0.8) 0%, #701587 92.3%);
+   box-shadow: 0px 4px 42.3px 4px #0000002E !important;
+   flex-direction: row !important;
+   color: white !important;
+
+  }
+  .overview-card img{
+   height: 150px;
+   width: 150px;
+  }
+  .overview-card a{
+   text-decoration: none;
+   
+  }
+  .total-fleets{
+   background: linear-gradient(100.17deg, rgba(255, 113, 53, 0.8) 4.75%, #D43F00 99.38%);
+   box-shadow: 0px 4px 42.3px 4px #0000002E !important;
+   flex-direction: row !important;
+   color: white !important;
+   }
+   .total-fleets img{
+      height: 150px;
+      width: 150px;
+   }
+
+   .side-menus span{
+      font-size: 12px;
+   }
+   .total-booking-table{
+      font-size: 12px;
+   }

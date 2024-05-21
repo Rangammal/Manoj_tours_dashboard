@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>overview</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/935d43f827.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2 bg-dark text-light" style="height: 100vh;">
+          <div class="logo">
+            <a href="./index.html"> <img src="./assets/logo1.png" alt="manoj-tours&travels-logo" class="img-fluid w-70" style="height: 200px;"></a>
+          </div>
+          <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item mb-3">
+              <a href="./overview.html" class="nav-link  text-white fs-6" aria-current="page">
+              <i class="fa fa-tachometer me-3" aria-hidden="true"></i>
+                Dashboard
+              </a>
+            </li>
+            
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link text-white active bg-secondary fs-6" aria-current="page">
+              <i class="fa fa-book me-3" aria-hidden="true"></i>
+                Bookings
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link text-white fs-6" aria-current="page">
+              <i class="fa fa-quote-right me-3" aria-hidden="true"></i>
+                Quotes
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link text-white fs-6" aria-current="page">
+              <i class="fa fa-columns me-3" aria-hidden="true"></i>
+                Enquiries
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link text-white fs-6" aria-current="page">
+              <i class="fa fa-calendar me-3" aria-hidden="true"></i>
+                Calender
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link text-white fs-6" aria-current="page">
+              <i class="fa fa-link me-3" aria-hidden="true"></i>
+                Share links
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link text-white fs-6" aria-current="page">
+              <i class="fa fa-cog me-3" aria-hidden="true"></i>
+                Settings
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="#" class="nav-link text-white fs-6" aria-current="page">
+              <i class="fa fa-sign-out me-3" aria-hidden="true"></i>
+                Logout
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="col-10 my-4">
+          <div class="quote-booking d-flex justify-content-end">
+            
+            <button type="button" class="btn btn-primary text-white border-0 rounded-4 me-4">New Bookings</button>
+            <div class="notify-icon me-4">
+              <i class="fa fa-bell" aria-hidden="true"></i>
+            </div>
+            <div class="profile me-4">
+              <img src="./assets/profile.jpg" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="side-menus">
+            <span>Dashboard > Overview > Total Bookings</span>
+          </div>
+
+          <div class="table-responsive mt-md-5">
+            <h5 class="fw-bold">TOTAL BOOKINGS</h5>
+            <table class="table text-center total-booking-table bg-dark-emphasis mt-md-4">
+              <tr class="fw-medium" >
+                <th class="bg-info"> Customer Name</th>
+                <th class="bg-info">Customer ID</th>
+                <th class="bg-info">Location</th>
+                <th class="bg-info">Duration</th>
+                <th class="bg-info"> No.Of.People</th>
+                <th class="bg-info">Fleet</th>
+                <th class="text-success bg-info">Paid</th>
+                <th class="text-danger bg-info">UnPaid</th>
+                <th class="bg-info">Total Amount</th>
+              </tr>
+              <tr>
+                <td>Mark Jones</td>
+                <td>MTT#001</td>
+                <td>Coimbatore To Ooty</td>
+                <td>Today<br><span>19/05/2024 - 20/05/2024</span></td>
+                <td>07</td>
+                <td>Ertiga TN43 H4460</td>
+                <td class="text-success">5000</td>
+                <td class="text-danger">3000</td>
+                <td>8000</td>
+              </tr>
+              <tr>
+                <td>Kasthuri</td>
+                <td>MTT#002</td>
+                <td>Coimbatore <i class="fa fa-long-arrow-right" aria-hidden="true"></i> Ooty</td>
+                <td>Today<br><span>20/05/2024</span></td>
+                <td>07</td>
+                <td>Ertiga TN43 H4460</td>
+                <td class="text-success">5000</td>
+                <td class="text-danger">3000</td>
+                <td>8000</td>
+              </tr>
+              <tr>
+                <td>Vishnu</td>
+                <td>MTT#003</td>
+                <td>Coimbatore <i class="fa fa-long-arrow-right" aria-hidden="true"></i> Trichy</td>
+                <td>Today<br><span>21/05/2024</span></td>
+                <td>07</td>
+                <td>Ertiga TN43 H4460</td>
+                <td>5000</td>
+                <td>3000</td>
+                <td>8000</td>
+              </tr>
+              <tr>
+                <td>Prasanth</td>
+                <td>MTT#004</td>
+                <td>Coimbatore <i class="fa fa-long-arrow-right" aria-hidden="true"></i> Kerala</td>
+                <td>Today<br><span>22/05/2024</span></td>
+                <td>07</td>
+                <td>Ertiga TN43 H4460</td>
+                <td>5000</td>
+                <td>3000</td>
+                <td>8000</td>
+              </tr>
+              <tr>
+                <td class="text-success">Babu</td>
+                <td class="text-success">MTT#005</td>
+                <td class="text-success">Ooty <i class="fa fa-long-arrow-left" aria-hidden="true"></i> Coimbatore</td>
+                <td class="text-success">Today<br><span>23/05/2024</span></td>
+                <td class="text-success">07</td>
+                <td class="text-success">Ertiga TN43 H4460</td>
+                <td class="text-success">-</td>
+                <td class="text-success">-</td>
+                <td class="text-success">8000</td>
+              </tr>
+              <tr >
+                <td>Gowtham</td>
+                <td>MTT#006</td>
+                <td>Chennai <i class="fa fa-long-arrow-left" aria-hidden="true"></i> Ooty</td>
+                <td>Today<br><span>20/05/2024</span></td>
+                <td>07</td>
+                <td>Ertiga TN43 H4460</td>
+                <td>5000</td>
+                <td>3000</td>
+                <td>8000</td>
+              </tr>
+              <tr>
+                <td class="text-secondary">Kalaimathi</td>
+                <td class="text-secondary">MTT#007</td>
+                <td class="text-secondary">Coimbatore To Ooty</td>
+                <td class="text-secondary">Today<br><span>20/05/2024</span></td>
+                <td class="text-secondary">07</td>
+                <td class="text-secondary">Ertiga TN43 H4460</td>
+                <td class="text-secondary">5000</td>
+                <td class="text-secondary">3000</td>
+                <td class="text-secondary"> 8000</td>
+              </tr>
+              <tr>
+                <td>Surya</td>
+                <td>MTT#008</td>
+                <td>Coimbatore To Ooty</td>
+                <td>Today<br><span>20/05/2024</span></td>
+                <td>07</td>
+                <td>Ertiga TN43 H4460</td>
+                <td>5000</td>
+                <td>3000</td>
+                <td>8000</td>
+              </tr>
+
+          </table>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+    </div>
+    
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
